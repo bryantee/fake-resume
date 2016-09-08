@@ -1,0 +1,17 @@
+.container {
+  width: 800px;
+  margin: 10px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+
+main {
+  display: inline-flex;
+  display: flex;
+  flex-direction: column;
+}
+
+aside {
+  display: inline-flex;
+}
