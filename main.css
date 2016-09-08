@@ -7,11 +7,21 @@ section p {
 }
 
 .container {
+  box-sizing: border-box;
   width: 800px;
   margin: 10px auto;
+  padding: 30px;
   display: flex;
   justify-content: space-between;
   align-items: start;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 800px) {
+  .container {
+    width: 100%;
+    justify-content: center;
+  }
 }
 
 main {
